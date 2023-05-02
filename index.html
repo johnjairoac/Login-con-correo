@@ -1,0 +1,19 @@
+<form onsubmit="e => preventDefault()">
+  <div class="form-group">
+    <label for="email" class="form-group__label">
+      <span data-splitting="" aria-hidden="true" class="words chars splitting" style="--word-total:1; --char-total:5;"><span class="word" data-word="Email" style="--word-index:0;"><span class="char" data-char="E" style="--char-index:0;">E</span><span class="char" data-char="m" style="--char-index:1;">m</span><span class="char" data-char="a" style="--char-index:2;">a</span><span class="char" data-char="i" style="--char-index:3;">i</span><span class="char" data-char="l" style="--char-index:4;">l</span></span></span>
+      <span class="sr-only">Email</span>
+    </label>
+    <input required type="email" id="email" class="form-input" title="Enter valid email address" placeholder="Enter valid email address" />
+    <div class="form-group__error">Enter a valid email address</div>
+  </div>
+  <div class="form-group">
+    <label for="password" class="form-group__label">
+      <span data-splitting="" aria-hidden="true" class="words chars splitting" style="--word-total:1; --char-total:8;"><span class="word" data-word="Password" style="--word-index:0;"><span class="char" data-char="P" style="--char-index:0;">P</span><span class="char" data-char="a" style="--char-index:1;">a</span><span class="char" data-char="s" style="--char-index:2;">s</span><span class="char" data-char="s" style="--char-index:3;">s</span><span class="char" data-char="w" style="--char-index:4;">w</span><span class="char" data-char="o" style="--char-index:5;">o</span><span class="char" data-char="r" style="--char-index:6;">r</span><span class="char" data-char="d" style="--char-index:7;">d</span></span></span>
+      <span class="sr-only">Password</span>
+    </label>
+    <input required="" type="password" id="password" class="form-input" placeholder="Password" title="Password must be at least 8 characters" pattern=".{8,}" />
+    <div class="form-group__error">Password must be at least 8 characters</div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
