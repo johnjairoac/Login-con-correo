@@ -33,7 +33,11 @@ El formulario utiliza `onsubmit="e => preventDefault()"`, lo cual previene la re
 
 Este formulario está diseñado para capturar de forma efectiva el correo y la contraseña del usuario, con validaciones básicas de HTML para asegurar que los datos ingresados sean válidos. Además, cada carácter de las etiquetas puede ser estilizado individualmente, permitiendo una mayor personalización.
 
+# Ejemplo de Pantalla de Inicio de Sesión
 
+Este es un ejemplo de la pantalla de inicio de sesión del formulario:
+
+![Ejemplo de Imagen - Pantalla de Inicio de Sesión](login1.png)
 
 
 <!---[![Login1.png](https://i.postimg.cc/9Q0GsMWb/Login1.png)](https://postimg.cc/5XcYCfQQ)
