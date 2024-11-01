@@ -1,4 +1,4 @@
-![Banner de login](login-html.png)
+![Banner de login](banner1.png)
 
 # Login de correo dinamico.
 <p align="left">
