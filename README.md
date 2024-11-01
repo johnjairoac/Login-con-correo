@@ -4,22 +4,33 @@
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
 </p>
+# Descripción del Formulario HTML
 
-Formulario 
-El formulario utiliza onsubmit="e => preventDefault()" para evitar que la página se recargue al enviar el formulario. Esto es útil si deseas procesar los datos de manera dinámica (por ejemplo, con JavaScript), en lugar de hacer que la página se envíe y recargue.
-Campo de Correo Electrónico:
+Este formulario HTML permite capturar un correo electrónico y una contraseña con validaciones básicas. A continuación, se describe cada parte de la estructura del formulario.
 
-Etiqueta (<label>): La etiqueta tiene la clase form-group__label y se estructura de manera que cada letra de la palabra "Email" esté envuelta en un elemento <span> separado, lo que permite estilos personalizados para cada carácter (usando data-splitting para dividir cada letra de manera animada o decorativa).
-Campo de Entrada (<input>): Este es el campo de entrada para el correo electrónico. Tiene el tipo email, lo que significa que el navegador verificará automáticamente si el formato del correo electrónico es válido. También utiliza el atributo required, que indica que el campo debe completarse antes de enviar el formulario.
-Mensaje de Error: Un mensaje de error que se muestra solo si el usuario no proporciona una dirección de correo válida.
-Campo de Contraseña:
+## 1. Formulario Principal (`<form>`)
 
-Etiqueta (<label>): Al igual que el campo de correo, tiene la palabra "Password" dividida por caracteres individuales para aplicar estilos personalizados.
-Campo de Entrada (<input>): Este campo tiene el tipo password, lo que oculta el texto mientras se escribe. También utiliza required, pattern=".{8,}" para validar que la contraseña tenga al menos 8 caracteres, y un title que muestra una pista sobre la longitud requerida.
-Mensaje de Error: Muestra un mensaje de error si la contraseña no cumple con el requisito de longitud mínima.
-Botón de Envío:
+El formulario utiliza `onsubmit="e => preventDefault()"`, lo cual previene la recarga de la página al enviarlo. Esto permite que los datos se procesen de manera dinámica (por ejemplo, mediante JavaScript), en lugar de enviar y recargar la página.
 
-Botón (<button type="submit">): Un botón que, al hacer clic, intenta enviar el formulario. Si hay errores de validación, estos mensajes de error aparecerán según los atributos required y pattern.
+## 2. Campo de Correo Electrónico
+
+- **Etiqueta (`<label>`)**: La etiqueta para el correo tiene la clase `form-group__label` y utiliza `data-splitting` para dividir cada letra de la palabra "Email" en elementos `<span>`, permitiendo aplicar estilos personalizados a cada carácter.
+- **Campo de Entrada (`<input>`)**: Este es el campo donde el usuario ingresa su correo electrónico. Está configurado con el tipo `email`, que automáticamente verifica que el formato sea válido. También tiene el atributo `required`, indicando que debe completarse antes de enviar el formulario.
+- **Mensaje de Error**: Un mensaje que se muestra si el usuario no ingresa un correo electrónico válido.
+
+## 3. Campo de Contraseña
+
+- **Etiqueta (`<label>`)**: La palabra "Password" se divide en caracteres individuales para aplicar estilos personalizados a cada letra.
+- **Campo de Entrada (`<input>`)**: Este campo utiliza el tipo `password` para ocultar el texto mientras se escribe. También tiene `required` y `pattern=".{8,}"`, lo que exige que la contraseña tenga al menos 8 caracteres. Incluye un `title` que muestra una sugerencia sobre la longitud mínima.
+- **Mensaje de Error**: Muestra un mensaje si la contraseña no cumple con el requisito de longitud mínima.
+
+## 4. Botón de Envío
+
+- **Botón (`<button type="submit">`)**: Este botón, al hacer clic, intenta enviar el formulario. Si hay errores de validación, se muestran mensajes de error según los atributos `required` y `pattern`.
+
+### En Conjunto
+
+Este formulario está diseñado para capturar de forma efectiva el correo y la contraseña del usuario, con validaciones básicas de HTML para asegurar que los datos ingresados sean válidos. Además, cada carácter de las etiquetas puede ser estilizado individualmente, permitiendo una mayor personalización.
 
 
 
