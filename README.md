@@ -5,8 +5,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
 </p>
 
-Formulario (<form>):
-
+Formulario 
 El formulario utiliza onsubmit="e => preventDefault()" para evitar que la página se recargue al enviar el formulario. Esto es útil si deseas procesar los datos de manera dinámica (por ejemplo, con JavaScript), en lugar de hacer que la página se envíe y recargue.
 Campo de Correo Electrónico:
 
