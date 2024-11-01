@@ -39,6 +39,7 @@ Este es un ejemplo de la pantalla de inicio de sesión del formulario:
 
 ![Ejemplo de Imagen - Pantalla de Inicio de Sesión](Login1.png)
 ![Ejemplo de Imagen - Clave invalida](Login2.png)
+![Ejemplo de Imagen - Clave valida](Login3.png)
 
 
 <!---[![Login1.png](https://i.postimg.cc/9Q0GsMWb/Login1.png)](https://postimg.cc/5XcYCfQQ)
