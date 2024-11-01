@@ -37,7 +37,7 @@ Este formulario está diseñado para capturar de forma efectiva el correo y la c
 
 Este es un ejemplo de la pantalla de inicio de sesión del formulario:
 
-![Ejemplo de Imagen - Pantalla de Inicio de Sesión](login1.png)
+![Ejemplo de Imagen - Pantalla de Inicio de Sesión](Login1.png)
 
 
 <!---[![Login1.png](https://i.postimg.cc/9Q0GsMWb/Login1.png)](https://postimg.cc/5XcYCfQQ)
