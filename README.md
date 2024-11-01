@@ -1,4 +1,4 @@
-![Banner de login](header.png)
+![Banner de login](login-html.png)
 
 # Login de correo
 <p align="left">
